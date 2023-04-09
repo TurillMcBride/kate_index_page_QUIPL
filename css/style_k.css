@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    font-size: 16px;
+
+}
+
+.container {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* Кнопка */
+.button_go {
+    border: 0;
+    background-color: #a10000;
+    font-size: 16px; /*Размер текста кнопки */
+    font-weight: bold;
+    color: #f7f5f5;
+    text-transform: uppercase;
+    width: 140px; /* Ширина кнопки */
+    padding: 10px 0;
+    border-bottom: 2px solid #751515; /* #891818 */
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.header_top {
+    background-color: #a10000;
+    border-bottom: 1px solid #d6d4d4;
+    padding: 15px 0px;
+}
+
+.header_top_wrapper {
+    display: flex;
+}
+
+ a {
+    color: #f7f5f5;
+    text-decoration: none ;
+}
+
+.header_top_contacts a:not(:first-child){
+    margin-left: 30px;
+
+}
+
+.header_top_contacts .ico {
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.header_top_contacts .ico_mail {
+    width: 11px;
+    height: 11px;
+    background-image: url(../images/ico_mail.png);
+
+}
+
+.header_top_contacts .ico_phone {
+    width: 7px;
+    height: 13px;
+    background-image: url(../images/ico_phone.png);
+
+}
+
+.header_top_login {
+    margin-left: auto;
+}
+
+.header_top_login > a:not(:first-child) {
+    margin-left: 15px;
+}
+
+.header_top_login .ico {
+    display: inline-block;
+}
+
+.header_top_login .ico_fb {
+    width: 7px;
+    height: 13px;
+    background-image: url(../images/ico_fb.png);
+}
+
+.header_bot {
+    background-color: #f5f5f5; /* Цвет фона хедер ботом*/
+    border-bottom: 1px solid #d6d4d4; /* Разделитель хедера от контентной части */
+    padding: 35px 0;
+}
+
+.header_bot_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    margin-left: 80px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav a {
+    color: #080000; /*Цвет текста хедер ботом*/
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.nav li:not(:last-child) {
+    margin-right: 40px;
+
+}
+/* Info-block (Общая часть. Кратко о приложении)*/
+.info {
+    background-color: #F3F4F4;
+    background-image: url("../images/promo_bg1.png");
+    background-size: cover;
+    height: 600px;
+}
+
+.info > .container,
+.info_wrapper {
+    height: 100%;
+}
+
+.info_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.info_content {
+    text-align: center;
+}
+
+.info h3 {
+    font-size: 60px; /* Размер текста Заголовка */
+    color: #080000;
+    margin-bottom: 40px;
+}
+
+.info p {
+    font-size: 20px;  /* Размер текста Абзаца */
+    font-weight: 300;
+    color: #080000;
+}
+
+.info_content .button_go {
+    margin-top: 60px;
+}
+/*Общие стили для блоков advantages, function, FAQ (кроме info) */
+.section {
+    padding: 100px 0;
+}
+/*Общие стили для заголовков <h2> блоков advantages, function, FAQ */
+.section h2 {
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/*Общие стили для абзацев <p> блоков advantages, function, FAQ */
+.section p {
+    font-size: 22px;
+    text-align: center;
+}
+/* Advantages-block (Преимущества приложения относительно конкурентов. Чуть подробнее о приложени)*/
+.advantages,
+.FAQ {
+    background-color: #fcf0f0; /*цвет фона всего блока */
+}
+
+.function {
+    background-color: #fff; /*цвет фона всего блока */
+}
+
